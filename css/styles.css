@@ -9,7 +9,7 @@ li {
   background-color: rgb(0, 68, 69);
   color: white;
   padding: 10px;
-  margin: 5px;
+  margin: 2px;
   text-align: center;
   display: inline-block;
 }
@@ -23,6 +23,29 @@ img {
   min-height: 10rem !important;
   max-height: 10rem !important;
   object-fit: contain;
+}
+
+.descriptor {
+  font-family: Roboto, sans-serif;
+  padding: 0 3px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.front-end {
+  background-color: lightsalmon;
+}
+
+.full-stack {
+  background-color: lightgreen;
+}
+
+.mobile {
+  background-color: rgb(241, 181, 181);
+}
+
+.desktop {
+  background-color: lightskyblue;
 }
 
 .name {
