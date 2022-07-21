@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #ec6d46, #e73c7e, rgb(189, 36, 36), #1ba383);
   background-size: 400% 400%;
   background-attachment: fixed;
   animation: gradient 15s ease infinite;
@@ -74,6 +74,19 @@ img {
   text-shadow: 1px 1px 2px black;
 }
 
+.name-font {
+  font-family: neon, sans-serif;
+  color: rgb(86, 137, 248);
+  text-shadow: 3px 3px 15px rgb(65, 87, 174);
+  font-size: 3rem !important;
+  animation: flicker 3s infinite alternate;
+}
+
+@font-face {
+  font-family: neon;
+  src: url("/NEON____.TTF") format("truetype");
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -85,5 +98,27 @@ img {
 
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@keyframes flicker {
+  40% {
+    opacity: 1;
+  }
+
+  42% {
+    opacity: 0.8;
+  }
+
+  43% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
   }
 }
