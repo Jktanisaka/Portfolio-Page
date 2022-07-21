@@ -17,85 +17,100 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 </head>
 <body>
-  <header class="container">
-    <div class="row justify-content-center">
+  <header class="container-fluid col-12 ">
+    <div class="row justify-content-center mt-5 mb-3">
       <h1 class="text-center name">Jonathan Tanisaka</h1>
       <h4 class="text-center name">Software Engineer</h4>
     </div>
-    <div class="container-fluid row">
-      <div class="btn-group" role="group" aria-label="Basic example">
+    <div class="row justify-content-center info-bar">
+      <div class="d-flex justify-content-evenly align-items-center">
+        <i class="fa-brands fa-github a-github"></i>
+        <i class="fa-brands fa-linkedin a-linkedin"></i>
+        <p class="m-0">Resume(PDF)</p>
+        <p class="m-0">Jktanisaka@gmail.com</p>
+      </div>
+    </div>
+    <!-- <div class="container-fluid row  m-0">
+      <div class="btn-group row justify-content-center" role="group" aria-label="Basic example">
         <button type="button" class="btn btn-dark"><i
             class="fa-brands fa-github a-github row justify-content-center inline"></i></button>
         <button type="button" class="btn btn-dark"><i
             class="fa-brands fa-linkedin a-linkedin row justify-content-center inline"></i></button>
         <button type="button" class="btn btn-dark">Resume(PDF)</button>
       </div>
-    </div>
+    </div> -->
   </header>
-  <main class="container-fluid row justify-content-center">
-    <div class="about col-10 row justify-content-center bg-white">
-      <p class="col-6">Hello! My name is Jon and I am a software engineer currently located on
-         the SoCal Area (open to relocation). After being laid off due to Covid-19
-         I decided to make a career change into software development. In January
-         2022 I decided to attend LearningFuze's 14 week full-immersion web
-         development cohort. I spent 10 hours on weekdays and 8-10 hours on the
-         weekend learning the intricacies of web development.</p>
-      <div class="col-4">
-        <ul>
-          <li>React</li>
-          <li>JavaScript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Node.js</li>
-          <li>Express</li>
-          <li>Lodash</li>
-          <li>Bootstrap</li>
-          <li>Multer</li>
-          <li>AWS S3</li>
+  <main class="container-fluid row justify-content-center m-0 p-0">
+    <div class="row justify-content-center bg-white pt-2" style="border-bottom: 2px solid black;">
+      <div class="col-sm-12 col-md-6 mb-2">
+        <h2 class="text-center">About Me</h2>
+        <p>Hello! My name is Jon and I am a software engineer currently located on
+          the SoCal Area (open to relocation). After being laid off due to Covid-19
+          I decided to make a career change into software development. In January
+          2022 I decided to attend LearningFuze's 14 week full-immersion web
+          development cohort. I spent 10 hours on weekdays and 8-10 hours on the
+          weekend learning the intricacies of web development.</p>
+      </div>
+      <div class="col-sm-12 col-md-5 ">
+        <h2 class="text-center">Technologies</h2>
+        <ul class="p-0 ms-3">
+          <li class="tech">React</li>
+          <li class="tech">JavaScript</li>
+          <li class="tech">HTML</li>
+          <li class="tech">CSS</li>
+          <li class="tech">Node.js</li>
+          <li class="tech">Express</li>
+          <li class="tech">Lodash</li>
+          <li class="tech">Bootstrap</li>
+          <li class="tech">Multer</li>
+          <li class="tech">AWS S3</li>
+          <li class="tech">OOP</li>
+          <li class="tech">Fetch</li>
+          <li class="tech">AJAX</li>
         </ul>
       </div>
     </div>
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="card m-3 rounded" style="width: 18rem;">
+      <div class="row justify-content-center col-12">
+        <div class="card m-3 rounded" style="width: 20rem;">
           <div class="display-inline mt-2 mb-2">
             <p class="full-stack descriptor m-0">Full-Stack</p>
             <p class="descriptor mobile m-0">Mobile</p>
             <p class="descriptor desktop m-0">Desktop</p>
           </div>
-          <img class="card-img-top" src="./images/printit.png" alt="Card image cap">
+          <img id="printit" class="card-img-top" src="./images/printit.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">PrintIt</h5>
             <p class="card-text">Full-Stack app for 3D Printer enthusiasts who want to share their prints with other users.
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a target="_blank" href="https://print-it-app.herokuapp.com/" class="btn btn-primary col-12">View</a>
           </div>
         </div>
-        <div class="card m-3 rounded" style="width: 18rem;">
+        <div class="card m-3 rounded" style="width: 20rem;">
           <div class="display-inline mt-2 mb-2">
             <p class="descriptor front-end m-0">Front-End</p>
             <p class="descriptor mobile m-0">Mobile</p>
             <p class="descriptor desktop m-0">Desktop</p>
           </div>
-          <img class="card-img-top" src="./images/checkmate.png" alt="Card image cap">
+          <img id="checkmate" class="card-img-top" src="./images/checkmate.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">CheckMate</h5>
             <p class="card-text">Front-End app for Chess.com users who want to keep track of their favorite users.
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a target="_blank" href="https://jktanisaka.github.io/CheckMate/" class="btn btn-primary col-12">View</a>
           </div>
         </div>
-        <div class="card m-3 rounded" style="width: 18rem;">
+        <div class="card m-3 rounded" style="width: 20rem;">
           <div class="display-inline mt-2 mb-2">
             <p class="descriptor front-end m-0">Front-End</p>
             <p class="descriptor desktop m-0">Desktop</p>
           </div>
-          <img class="card-img-top mt-3" src="./images/graysquare.png" alt="Card image cap">
+          <img id="gray-square" class="card-img-top " src="./images/graysquare.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Gray Square</h5>
-            <p class="card-text">Front-end interactive game. Best experienced with a mouse.
+            <p class="card-text">Front-end interactive game. All you have to do is click the gray square.
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a target="_blank" href="https://gray-square.herokuapp.com/" class="btn btn-primary col-12">Play</a>
           </div>
         </div>
       </div>

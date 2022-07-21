@@ -1,11 +1,12 @@
 body {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
+  background-attachment: fixed;
   animation: gradient 15s ease infinite;
   height: 100vh;
 }
 
-li {
+.tech {
   background-color: rgb(0, 68, 69);
   color: white;
   padding: 10px;
@@ -16,6 +17,25 @@ li {
 
 i {
   font-size: 36px;
+}
+
+.info-bar {
+  background-color: white;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.email {
+  text-align: center;
+}
+
+.fa-linkedin {
+  color: rgb(9, 97, 184);
+  background-color: white;
+}
+
+.card {
+  box-shadow: 2px 2px 5px black;
 }
 
 img {
