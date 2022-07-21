@@ -1,3 +1,1 @@
-# code-journal
-
-An HTML, CSS, and JavaScript journal app.
+Portfolio Page for Jonathan Tanisaka
