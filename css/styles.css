@@ -84,7 +84,7 @@ img {
 
 @font-face {
   font-family: neon;
-  src: url("/NEON____.TTF") format("truetype");
+  src: url("../NEON____.TTF") format("truetype");
 }
 
 @keyframes gradient {
