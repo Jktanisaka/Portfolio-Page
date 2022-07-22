@@ -1,8 +1,8 @@
 body {
-  background: linear-gradient(-45deg, #833ab4, #fd1d1d, #fcb045);
+  background: linear-gradient(-45deg, #833ab4, #bd2323, #d2943d);
   background-size: 400% 400%;
   background-attachment: fixed;
-  animation: gradient 15s ease infinite;
+  animation: gradient 10s ease infinite;
   height: 100vh;
 }
 
